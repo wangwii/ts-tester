@@ -13,8 +13,7 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
   php:
     image: php:7.3.0-fpm-alpine3.8
-    ports:
-      - "9000:9000"
+    user: "82:82"
     volumes:
       - ./www:/app
       - ./www:/usr/share/nginx/html

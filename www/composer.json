@@ -1,0 +1,20 @@
+{
+    "name": "wangwii/ts-tester",
+    "description": "A demo for Table Store on PHP.",
+    "keywords": ["Aliyun", "Table Store", "SDK"],
+    "license": "MIT",
+    "type": "project",
+    "repositories": {
+        "0": {
+            "type": "path",
+            "url": "../aliyun-tablestore-php-sdk"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "require": {
+        "aliyun/aliyun-tablestore-sdk-php": "@dev"
+    }
+}
